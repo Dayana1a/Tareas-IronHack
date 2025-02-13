@@ -21,7 +21,7 @@ h2{
     color: rgb(97, 97, 97);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 40%;
-    hyphens: auto;
+    hyphens: auto; /*parte las palabras*/
     text-align: justify;
 }
 
@@ -35,7 +35,37 @@ h2{
 .conclusion{
     color: rgb(0, 0, 0);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 40%;
+    width: 40%; /*ancho*/
     font-weight: bold;
     text-align: justify;
 }
+
+
+
+.notas{
+    /*columnas*/
+    column-gap: 24px;
+    column-count: 2;
+    column-rule: 5px dashed red;
+    column-rule: 5px dot red;
+    column-rule: 5px solid red;
+
+    /*negrita*/
+    font-weight: bold;
+
+    /*Margenes*/
+    padding: 10px; /*Margen interior*/
+    margin: 25px; /*Margen esterior*/
+    width: 50%;
+
+    line-height: 20px; /*interlineado*/
+    letter-spacing: 4px; /*especio entre las palabras*/
+
+    /*a que altura empieza el párrafo*/
+    text-indent: 20%;
+}
+
+
+
+
+
