@@ -1,0 +1,15 @@
+.tituloReik{
+    color: rgb(255, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%; /*ancho*/
+    font-weight: bold;
+    text-align: center;
+}
+
+.subtitulosReik{
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 40%; /*ancho*/
+    font-weight: bold;
+    text-align: justify;
+}
