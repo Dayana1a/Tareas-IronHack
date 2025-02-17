@@ -1,15 +1,14 @@
-.tituloReik{
-    color: rgb(255, 0, 0);
+h2{
+    color: rgb(255, 255, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 100%; /*ancho*/
-    font-weight: bold;
+    font-size: 30px;
     text-align: center;
+    background-color: rgb(0, 0, 0);
+    margin-top:0
 }
-
-.subtitulosReik{
-    color: rgb(0, 0, 0);
+.cuerpodetexto{
+    color: rgb(97, 97, 97);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 40%; /*ancho*/
-    font-weight: bold;
     text-align: justify;
+    padding: 10px;
 }
