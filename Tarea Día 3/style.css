@@ -1,5 +1,5 @@
 body{
-    background-image: url(Imagenes/fondo\ 4.jpg);
+    background-image: url(Imagenes/FONDO\ 4.jpg);
 }
 h1{
     color: rgb(255, 255, 255);
@@ -19,12 +19,13 @@ h2{
     margin-top:0
 }
 
-.reik{
-    color: rgb(255, 255, 255);
+.introduccion{
+    color: rgb(97, 97, 97);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
-    text-align: center;
-    background-color: rgb(0, 0, 0);
+    hyphens: auto; /*parte las palabras*/
+    text-align: justify;
+    margin: 3%;
+    background-color: azure;
 }
 
 .enlace{
@@ -35,15 +36,6 @@ h2{
     text-align: center;
 }
 
-.introduccion{
-    color: rgb(97, 97, 97);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    hyphens: auto; /*parte las palabras*/
-    text-align: justify;
-    margin: 3%;
-    background-color: azure;
-}
-
 .cuerpodetexto{
     color: rgb(97, 97, 97);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -51,22 +43,15 @@ h2{
     padding: 10px;
 }
 
-.conclusion{
-    color: rgb(0, 0, 0);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    text-align: center;
-    background-color: azure;
-}
 
 div{
     column-count: 3;
     background-color: azure;
     margin: 3%;
+    padding: 10px;
 }
 
 a{
-
 text-decoration: none;
 }
 
@@ -79,32 +64,11 @@ a:hover{
     color: rgb(255, 0, 0);
 }
 
-
-
-.notas{
-    /*columnas*/
-    column-gap: 24px;
-    column-count: 2;
-    column-rule: 5px dashed red;
-    column-rule: 5px dot red;
-    column-rule: 5px solid red;
-
-    /*negrita*/
+.conclusion{
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
-
-    /*Margenes*/
-    padding: 10px; /*Margen interior*/
-    margin: 25px; /*Margen esterior*/
-    width: 50%; /*ancho*/
-
-    line-height: 20px; /*interlineado*/
-    letter-spacing: 4px; /*especio entre las palabras*/
-
-    /*a que altura empieza el párrafo*/
-    text-indent: 20%;
+    text-align: center;
+    background-color: azure;
+    margin: 3%;
 }
-
-
-
-
-
