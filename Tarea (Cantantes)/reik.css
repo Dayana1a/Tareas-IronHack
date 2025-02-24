@@ -1,0 +1,224 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.body{
+    background-color: rgb(255, 255, 255);
+    margin: 50px;
+}
+table, td {
+    border:1px solid black;
+}
+table {
+    border-collapse:collapse;
+}
+.home, .reik, .humbe, .karolg {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    letter-spacing: 3px;
+    padding:10px;
+    text-align: center;
+    width: 1%;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    font-family: fantasy;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    letter-spacing: 3px;
+    border-radius: 10px;
+    margin-top:0
+}
+.lista{
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lista2{
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-self: center;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 2px;
+    margin: 3%;
+}
+
+.drcha{
+    display: flex;
+    background-color: rgba(151, 151, 151, 0.418);
+    margin: 3%;
+    padding: 10px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.izq{
+    display: flex;
+    background-color: rgba(151, 151, 151, 0.418);
+    margin: 3%;
+    padding: 10px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.FIN{
+    display: flex;
+    background-color: rgba(151, 151, 151, 0.418);
+    margin: 3%;
+    padding: 10px;
+    height: 550px;
+    border-radius: 10px;
+}
+
+
+.ttdrcha, .ttizq{
+    width: 50%;
+}
+
+.reik0{
+    border-radius: 10px;
+    background-image: url(Imagenes/REIK/REIK\ 0.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    width: 100%;
+    margin-left: 15px;
+}
+.reik1{
+    border-radius: 10px;
+    background-image: url(Imagenes/REIK/REIK\ 1.png);
+    background-size: cover;
+    background-position-y: -30px;
+    margin: 0px;
+    width: 50%;
+    margin-right: 15px;
+}
+.reik2{
+    border-radius: 10px;
+    background-image: url(Imagenes/REIK/REIK\ 2.jpg);
+    background-size: cover;
+    background-position-y: -30px;   
+    margin: 0px;
+    width: 50%;
+    margin-left: 15px;
+
+}
+.reik3{
+    border-radius: 10px;
+    background-image: url(Imagenes/REIK/REIK\ 3.jpg);
+    background-size: cover;
+    background-position-y: -60px;
+    background-position-x:-20px;
+    margin: 0px;
+    width: 50%;
+    margin-right: 15px;
+}
+.reik4{
+    border-radius: 10px;
+    background-image: url(Imagenes/REIK/REIK\ 4.jpg);
+    background-size: cover;
+    background-position-y: -65px;
+    margin: 0px;
+    width: 50%;
+    margin-left: 15px;
+}
+.reik5{
+    border-radius: 10px;
+    background-image: url(Imagenes/REIK/REIK\ 5.jpg);
+    background-size: cover;
+    background-position-y: -20px;
+    margin: 0px;
+    width: 50%;
+    margin-right: 15px;
+}
+.reik6{
+    border-radius: 10px;
+    background-image: url(Imagenes/REIK/REIK\ 6.jpg);
+    background-size: cover;
+    background-position-y: -50px;
+    margin: 0px;
+    width: 50%;
+    margin-left: 15px;
+}
+.reik7{
+    border-radius: 10px;
+    background-image: url(Imagenes/REIK/REIK\ 7.jpg);
+    background-size: cover;
+    background-position-y: -50px;
+    margin: 0px;
+    width: 50%;
+    margin-right: 15px;
+}
+.reik8{
+    border-radius: 10px;
+    background-image: url(Imagenes/REIK/REIK\ 8.jpg);
+    background-size: cover;
+    background-position-y: -20px;
+    margin: 0px;
+    width: 50%;
+    margin-left: 15px;
+}
+.reik9{
+    border-radius: 10px;
+    background-image: url(Imagenes/REIK/REIK\ 9.jpg);
+    background-size: cover;
+    background-position-y: -80px;
+    margin: 0px;
+    width: 50%;
+    margin-right: 15px;
+}
+
+
+.cuerpodetexto{
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    align-self: center;
+    padding: 20px;
+    font-size: 22px;
+    width: 95%;
+    line-height: 150%;
+    letter-spacing: 2px;
+}
+
+
+.menu{
+    color: rgb(255, 255, 255);
+    font-family: fantasy;
+    align-self: center;
+    font-weight: bold;
+    padding: 50px;
+    margin-left: 15px;
+}
+
+.indice{
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-self: center;
+    padding: 50px;
+    margin-left: 15px;
+}
+
+a:visited{
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    font-size: 200%;
+    color: none;
+    font-family: fantasy;
+    color: rgb(139, 203, 211);
+}
+
+a{
+    text-decoration: none;
+    }
+
