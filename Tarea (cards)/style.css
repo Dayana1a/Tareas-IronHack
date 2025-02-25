@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(228, 228, 228);
+    flex-wrap: wrap;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-family: fantasy;
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    letter-spacing: 3px;
+}
+.container{
+    border-radius: 10px;
+    background-color: lightcoral;
+    width: 300px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+.container:hover{
+    scale: 1.1;           /*Scale 1 es igual, más de uno es más grande y menos de uno es más pequeña */
+    rotate: 360deg;   /*deg en grados*/
+    transition: 1s;  /*s en segundos*/
+    box-shadow: 10px 10px 90px rgb(43, 33, 43);   /*desplazamiento horixontal/ vertical/ difusión de color*/
+}
+
+.nombre{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.descrip{
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+img{
+    /*background-size: cover;*/
+    /*background-position: center;*/
+    border-radius: 10px;
+    height: 50%;
+    width: 250px;
+    margin: 10px;
+    margin: auto;
+}
+
+/*como centrar la img en el div de container*/
+/*cambio el tamaño del texto y se sale del div*/
