@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(228, 228, 228);
+    flex-wrap: wrap;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 800px;
+    width: 800px;;
+    margin: auto;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-family: fantasy;
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 3px;
+}
+.bomba{
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    background-image: url(sonrisa.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.bomba:hover{
+    transform: rotateY(-180deg);
+    transition: 1s;
+    box-shadow: 2px 2px 90px rgb(255, 0, 0); /*desplazamiento horixontal/ vertical/ difusión de color*/
+    background-image: url(bomba.png);
+    background-color: rgb(255, 0, 0);
+}
+
+.agua{
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    background-image: url(sonrisa.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.agua:hover{
+    transform: rotateY(-180deg);
+    transition: 1s;
+    box-shadow: 2px 2px 90px rgb(60, 255, 0);
+    background-image: url(agua.png);
+    background-color: rgb(0, 255, 0);
+    animation: reverse;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*como centrar la img en el div de container . margin:auto*/
