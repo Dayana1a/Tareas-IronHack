@@ -1,0 +1,71 @@
+body{
+    flex-wrap: wrap;
+}
+main{
+    display: flex;
+}  
+h1{
+    color: rgb(0, 0, 122);
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.autor{
+    display: flex;
+    background-color: rgba(201, 201, 201, 0.418);
+    margin: 3%;
+    padding: 10px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.bio{
+    color: rgb(0, 0, 0);
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-size: 22px;
+    text-align: center;
+    padding: 60px;
+}
+
+.introduccion{
+    margin: 3%;
+}
+.ley1, .ley2, .ley3{
+    background-color: rgba(201, 201, 201, 0.418);
+    margin: 3%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.imagen{
+    width: 100%;
+    height: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://pymstatic.com/66242/conversions/frases-isaac-asimov-small-16_9.jpg);
+}
+
+.img1{
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://educaendigital.wordpress.com/wp-content/uploads/2018/01/humanrobotse1433163724309.jpg?w=600);
+}
+
+.img2{
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://estaticos-cdn.prensaiberica.es/clip/f5537c4f-7d0a-4d00-b36a-3b1cbb0d516f_alta-libre-aspect-ratio_default_0.jpg);
+}
+
+.img3{
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://www.cssr.news/spanish/wp-content/uploads/sites/3/2019/11/robotica24.jpg);
+}
