@@ -1,0 +1,81 @@
+/* Reset y estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Menú Sticky */
+.menu {
+    position: sticky;
+    top: 0;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    text-align: center;
+    z-index: 10;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Contenedor con fondo */
+.contenedor {
+    position: relative;
+    height: 100vh;
+    background: url('paisaje.jpg') no-repeat center center/cover;
+}
+
+/* Slogan con posicionamiento relativo */
+.slogan {
+    position: relative;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+/* Elemento en el cielo (absolute sobre relative) */
+.pajaro {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    width: 100px;
+}
+
+/* Elemento superpuesto (z-index) */
+.elefante {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40vw; /* Ocupa el 40% del ancho de la pantalla */
+    max-width: 600px; /* Tamaño máximo para evitar que sea demasiado grande */
+    z-index: 5;
+}
+
+/* Footer Fixed */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
