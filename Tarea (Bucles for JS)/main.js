@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     document.querySelector("button[onclick='mostrarDescendentes()']").addEventListener("click", mostrarDescendentes);
     document.querySelector("button[onclick='mostrarPares()']").addEventListener("click", mostrarPares);
     
-    // ✅ Asegurar que solo se asigna un evento al botón del carrito
+    // Asegurar que solo se asigna un evento al botón del carrito
     document.getElementById("carrito-btn").addEventListener("click", calcularCarrito);
 });
 
