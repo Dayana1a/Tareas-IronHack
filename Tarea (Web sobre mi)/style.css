@@ -1,0 +1,86 @@
+body {
+    font-family: letra;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+@font-face {
+    font-family: letra;
+    src: url(Letra1.ttf);
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+header img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 70px;
+}
+
+header p {
+font-size: 25px;
+margin: 10px;
+}
+
+.sobre-mi {
+    background: white;
+    padding: 40px;
+    margin: 30px;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hobbies {
+    margin: 20px;
+}
+
+.hobbies-principales {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.hobby {
+    text-align: center;
+}
+
+.hobby img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.otros-hobbies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.hobby-texto {
+    background: #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+}
+
+.bloque{
+    display: flex;
+}
