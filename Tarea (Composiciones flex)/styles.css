@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.ejercicio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    border: 2px solid gold;
+    padding: 20px;
+    background-color: white;
+}
+
+.ejercicio-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid gold;
+}
+
+.fila {
+    display: flex;
+    gap: 10px;
+}
+
+.ejercicio-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: flex-start;
+    border: 2px solid gold;
+    padding: 20px;
+    background-color: white;
+    height: 500px;
+}
+
+.ejercicio-3 .caja {
+    flex: 1;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.caja1-1, .caja2-1, .caja3-1, .caja4-1, .caja5-1, .caja6-1, .caja7-1, .caja8-1, .caja9-1, .caja10-1, .caja1-2, .caja2-2, .caja3-2, .caja4-2, .caja5-2, .caja6-2, .caja7-2, .caja8-2, .caja9-2, .caja10-2, .caja1-3, .caja2-3, .caja3-3, .caja4-3, .caja5-3, .caja6-3, .caja7-3, .caja8-3, .caja9-3, .caja10-3 {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.caja1-1, .caja1-2, .caja1-3{
+    background-color: red;
+}
+.caja2-1, .caja2-2, .caja2-3{
+    background-color: rgb(255, 72, 0);
+}
+.caja3-1, .caja3-2, .caja3-3{
+    background-color: rgb(255, 136, 0);
+}
+.caja4-1, .caja4-2, .caja4-3{
+    background-color: rgb(251, 255, 0);
+}
+.caja5-1, .caja5-2, .caja5-3{
+    background-color: rgb(51, 255, 0);
+}
+.caja6-1, .caja6-2, .caja6-3{
+    background-color: rgb(0, 255, 191);
+}
+.caja7-1, .caja7-2, .caja7-3{
+    background-color: rgb(0, 119, 255);
+}
+.caja8-1, .caja8-2, .caja8-3{
+    background-color: rgb(0, 17, 255);
+}
+.caja9-1, .caja9-2, .caja9-3{
+    background-color: rgb(119, 0, 255);
+}
+.caja10-1, .caja10-2, .caja10-3{
+    background-color: rgb(234, 0, 255);
+}
+
+.caja1-1, .caja2-1, .caja3-1, .caja4-1, .caja5-1, .caja6-1, .caja7-1, .caja8-1, .caja9-1, .caja10-1{
+    height: 500px;
+}
+
+.ejercicio-3 :nth-child(9){
+    align-self: flex-end;
+}
+
+.ejercicio-3 :nth-child(6){
+    align-self: center;
+}
+    
+.ejercicio-3 :nth-child(2){
+    height: 500px;
+}
