@@ -1,4 +1,4 @@
-/* Reset y estilos generales */
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -31,7 +31,7 @@ body {
     font-size: 18px;
 }
 
-/* Contenedor con fondo */
+
 .contenedor {
     position: relative;
     height: 100vh;
@@ -51,7 +51,7 @@ body {
     border-radius: 5px;
 }
 
-/* Elemento en el cielo (absolute sobre relative) */
+
 .pajaro {
     position: absolute;
     top: 20px;
@@ -59,7 +59,7 @@ body {
     width: 100px;
 }
 
-/* Elemento superpuesto (z-index) */
+
 .elefante {
     position: absolute;
     bottom: 0;
