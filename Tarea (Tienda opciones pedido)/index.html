@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedido de Pizza</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>Formulario de Pedido</h1>
+  <form action="pedido-recibido.html" method="get">
+    
+    <fieldset>
+      <legend>Datos Personales</legend>
+      <label for="tratamiento">Tratamiento:</label>
+      <select id="tratamiento" name="tratamiento" required>
+        <option value="Sr">Sr.</option>
+        <option value="Sra">Sra.</option>
+        <option value="NB">NB</option>
+      </select>
+      
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" name="telefono" placeholder="600-000-000" required>
+    </fieldset>
+
+    <!-- Pedido de Pizza -->
+    <fieldset>
+      <legend>Detalles del Pedido</legend>
+      <label for="tipo_pizza">Tipo de Pizza:</label>
+      <select id="tipo_pizza" name="tipo_pizza" required>
+        <option value="margarita">Margarita</option>
+        <option value="pepperoni">Pepperoni</option>
+        <option value="4quesos">4 Quesos</option>
+        <option value="vegetariana">Vegetariana</option>
+        <option value="hawaina">Hawaiana</option>
+        <option value="mexicana">Mexicana</option>
+      </select>
+
+      <p>Ingredientes Extras:</p>
+      <label>
+        <input type="checkbox" name="ingredientes_extras" value="Queso Extra">
+        Queso Extra
+      </label>
+      <label>
+        <input type="checkbox" name="ingredientes_extras" value="Champiñones">
+        Champiñones
+      </label>
+      <label>
+        <input type="checkbox" name="ingredientes_extras" value="Aceitunas">
+        Aceitunas
+      </label>
+      <label>
+        <input type="checkbox" name="ingredientes_extras" value="Tocino">
+        Tocino
+      </label>
+
+      <p>Método de Entrega:</p>
+      <label>
+        <input type="radio" name="metodo_entrega" value="Enviar a casa" required>
+        Enviar a casa
+      </label>
+      <label>
+        <input type="radio" name="metodo_entrega" value="Venir a buscar" required>
+        Venir a buscar
+      </label>
+    </fieldset>
+
+
+
+    <fieldset>
+      <legend>Comentarios Adicionales</legend>
+      <label for="comentarios">Comentario:</label>
+      <textarea id="comentarios" name="comentarios" maxlength="200" placeholder="¿Algo más que quieras agregar?"></textarea>
+    </fieldset>
+
+    <button type="submit">Realizar Pedido</button>
+  </form>
+</body>
+</html>

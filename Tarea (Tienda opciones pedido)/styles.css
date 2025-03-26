@@ -1,0 +1,101 @@
+body {
+    font-family: "Darker Grotesque", sans-serif;
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    background-image:url(fondopizza.jpg);
+    font-size: 22px;
+  }
+  
+  select, textarea, input{
+    font-family: "Darker Grotesque", sans-serif;
+  }
+
+  h1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  form {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  fieldset {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+  }
+  
+  legend {
+    font-weight: bold;
+    color: #d35400;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  input {
+    width: 7%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  input#nombre, input#telefono {
+    width:97%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  textarea{
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #d35400;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: "Darker Grotesque", sans-serif;
+  }
+  
+  button:hover {
+    background-color: #e67e22;
+    font-family: "Darker Grotesque", sans-serif;
+  }
+  
