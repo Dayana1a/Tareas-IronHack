@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intercambio de Variables</title>
+</head>
+<body>
+  <h1>Intercambio de Valores en Dos Variables</h1>
+  <script>
+    let A = prompt("Introduce el nombre para la variable A (ejemplo: Alejandro):");
+    let B = prompt("Introduce el nombre para la variable B (ejemplo: Noelia):");
+
+    document.write(`En Barcelona está ${A}, y en Tarragona está ${B}<br>`);
+    console.log("Antes del intercambio:");
+    console.log("Variable A:", A);
+    console.log("Variable B:", B);
+
+    let temp = A;
+    A = B;
+    B = temp;
+
+    document.write(`En Barcelona está ${A}, y en Tarragona está ${B}<br>`);
+    console.log("Después del intercambio:");
+    console.log("Variable A:", A);
+    console.log("Variable B:", B);
+  </script>
+</body>
+</html>

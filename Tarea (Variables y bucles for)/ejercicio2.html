@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buffet Libre Restaurante</title>
+</head>
+<body>
+  <h1>Buffet Libre Restaurante</h1>
+  <script>
+    let cantidadPlatos = parseInt(prompt("¿Cuántos platos vas a comer?"));
+    let platosPedidos = [];
+
+    for (let i = 1; i <= cantidadPlatos; i++) {
+      let plato = prompt(`¿Qué quieres comer? (Plato ${i} de ${cantidadPlatos}):`);
+      platosPedidos.push(plato);
+      document.write(`Has pedido: ${plato}<br>`);
+      if (i === 5) {
+        document.write("¡Vas a reventar!<br>");
+      }
+    }
+    console.log("Platos pedidos:", platosPedidos);
+  </script>
+</body>
+</html>
