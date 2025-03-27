@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #3342c5;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#presentacion {
+    text-align: center;
+    padding: 20px;
+}
+
+#presentacion img {
+    max-width: 80%;
+    border-radius: 10px;
+}
+
+#modelos {
+    text-align: center;
+    padding: 20px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    gap: 20px;
+    min-height: 300px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    text-align: center;
+    margin: auto;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+#contacto {
+    text-align: center;
+    padding: 20px;
+    background-color: grey;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+form label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+form button:hover {
+    background: #218838;
+}
+
+
+
+/* EXTRA: GRID EN LUGAR DE FLEXBOX */
+@media (min-width: 768px) {
+    .cards-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+    }
+}
