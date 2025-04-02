@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios de JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        <h2>Ejercicio 1: Cambio de color</h2>
+
+        <div id="caja"></div>
+        <button onclick="cambiarColor('#caja', 'red')">Rojo</button>
+        <button onclick="cambiarColor('#caja', 'green')">Verde</button>
+        <button onclick="cambiarColor('#caja', 'blue')">Azul</button>
+
+        <h3>Texto Cambiable</h3>
+        <button onclick="cambiarColor('h3', 'red')">Rojo</button>
+        <button onclick="cambiarColor('h3', 'green')">Verde</button>
+        <button onclick="cambiarColor('h3', 'blue')">Azul</button>
+
+        <div class="circulo"></div>
+        <button onclick="cambiarColor('.circulo', 'red')">Rojo</button>
+        <button onclick="cambiarColor('.circulo', 'green')">Verde</button>
+        <button onclick="cambiarColor('.circulo', 'blue')">Azul</button>
+    </div>
+
+    <div class="contenedor">
+        <h2>Ejercicio 2: Mensaje Secreto</h2>
+
+        <div class="mensaje fondo" id="secreto">¡Mensaje Oculto!</div>
+        <br><br>
+        <button onclick="descubrirMensaje()">Descubre el mensaje!</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

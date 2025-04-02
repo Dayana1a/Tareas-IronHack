@@ -1,0 +1,39 @@
+.contenedor {
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+#caja, .circulo {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    border: 2px solid black;
+}
+#caja {
+    background-color: white;
+}
+h3 {
+    color: black;
+}
+.circulo {
+    background-color: white;
+    border-radius: 50%;
+}
+
+
+
+.mensaje {
+    background-color: black;
+    color: black;
+    padding: 20px;
+    display: inline-block;
+}
+.mostrar {
+    color: white !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+.fondo {
+    background-color: black !important;
+}
