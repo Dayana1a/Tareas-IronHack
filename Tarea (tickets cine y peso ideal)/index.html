@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicios JS: Peso Ideal y Ticket de Cine</title>
+  <style>
+    body {
+      font-family: Arial;
+      padding: 20px;
+      background-color: #f0f0f0;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    input {
+      margin-bottom: 10px;
+      padding: 5px;
+    }
+
+    button {
+      margin: 10px 0;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+
+    #resultado {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    #ticket {
+      width: 300px;
+      height: 200px;
+      border: 2px dashed black;
+      padding: 10px;
+      background-color: #ffffff;
+      margin-top: 20px;
+    }
+
+    .dato {
+      font-size: 16px;
+      margin: 5px 0;
+    }
+
+    hr {
+      margin: 30px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>1. Calculadora de Peso Ideal (IMC)</h2>
+
+  <label for="altura">Altura (m):</label>
+  <input type="number" id="altura" step="0.01"><br>
+
+  <label for="peso">Peso (kg):</label>
+  <input type="number" id="peso" step="0.1"><br>
+
+  <button onclick="calcularIMC()">Calcular IMC</button>
+
+  <div id="resultado"></div>
+
+  <hr>
+
+  <h2>2. Rellenar Ticket de Cine</h2>
+
+  <label>Nombre: <input type="text" id="nombre"></label><br>
+  <label>Fecha: <input type="text" id="fecha"></label><br>
+  <label>Fila: <input type="text" id="fila"></label>
+  <label>Asiento: <input type="text" id="asiento"></label><br>
+
+  <button onclick="rellenarTicket()">Generar Ticket</button>
+
+  <div id="ticket">
+    <h3>🎬 TICKET DE CINE 🎬</h3>
+    <div class="dato" id="mostrarNombre"></div>
+    <div class="dato" id="mostrarFecha"></div>
+    <div class="dato" id="mostrarButaca"></div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
