@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predicciones zodiacales</title>
+</head>
+<body>
+    <h1>Prácticas de JavaScript</h1>
+    <section id="switch">
+        <h2>1. Predicciones Zodiacales</h2>
+        <p>Bienvenid@ a la tu pitonisa de confianza! Dime tu signo del zodiaco y te diré como irá tu semana  :D</p>
+        <input type="text" id="signo" placeholder="Ejemplo: leo, capricornio...">
+        <button onclick="mostrarPrediccion()">Ver predicción</button>
+        <p id="resultadoSwitch"></p>
+    </section>
+    <section id="adivina">
+        <h2>2. Adivina el Número</h2>
+        <p>Piensa en un número entre 1 y 10.</p>
+        <button onclick="adivinaNumero()">¡Empezar!</button>
+    </section>
+    <section id="dados">
+        <h2>3. Lanzar los Dados</h2>
+        <p>PLAYER 1:</p>
+        <button onclick="lanzarDado('player1')">Lanzar dado</button>
+        <p id="resultado1"></p>
+        <p>PLAYER 2:</p>
+        <button onclick="lanzarDado('player2')">Lanzar dado</button>
+        <p id="resultado2"></p>
+        <h3 id="ganador"></h3>
+    </section>
+    <script src="script.js"></script>
+
+
+</body>
+</html>
