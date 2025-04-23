@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  /* Emergente */
+  #emergente {
+    display: none;
+    background-color: #f9c74f;
+    border: 2px solid #f9844a;
+    padding: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  /* Cajas */
+  .almacen {
+    margin-top: 40px;
+  }
+  
+  .caja {
+    width: 50px;
+    height: 50px;
+    background-color: #90be6d;
+    margin: 10px;
+    position: relative;
+    transition: transform 0.5s;
+  }
+  
+  /* Semáforo */
+  .semaforo {
+    margin-top: 40px;
+    width: 50px;
+  }
+  
+  .luz {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: grey;
+    margin: 10px 0;
+  }
+  
