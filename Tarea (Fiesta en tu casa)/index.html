@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicios JS Dinámicos</title>
+  <style>
+    body { font-family: Arial; padding: 20px; }
+    .seccion { margin-bottom: 30px; }
+    button { margin: 5px; }
+    #listaInvitados, #infoOrdenador, #infoGalletas {
+      background: #f0f0f0;
+      padding: 10px;
+      margin-top: 10px;
+      white-space: pre-line;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="seccion">
+    <h2>🎉 Lista de invitados</h2>
+    <button onclick="añadirJuaniAlex()">Juani + Alex</button>
+    <button onclick="colarMarta()">Colar Marta (posición 3)</button>
+    <button onclick="eliminarRoberto()">Roberto se va</button>
+    <button onclick="fiestaVecinos()">Fiesta Vecinos</button>
+    <button onclick="ordenarLista()">Ordenar y mostrar</button>
+    <div id="listaInvitados"></div>
+  </div>
+
+  <div class="seccion">
+    <h2>🖥️ Objeto ordenador</h2>
+    <button onclick="mostrarFrase()">Frase del ordenador</button>
+    <button onclick="mostrarForIn()">Recorrer con for in</button>
+    <button onclick="mostrarExtra()">Mostrar tercer extra</button>
+    <div id="infoOrdenador"></div>
+  </div>

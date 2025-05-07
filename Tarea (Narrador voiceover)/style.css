@@ -1,0 +1,40 @@
+.oculto-visualmente {
+    position: absolute;
+    left: -9999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+
+  .oculto-visualmente:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    padding: 0.5rem;
+    background-color: yellow;
+    font-weight: bold;
+  }
+
+  nav {
+    background-color: #333;
+    padding: 1rem;
+  }
+
+  nav a {
+    color: white;
+    margin-right: 1rem;
+    text-decoration: none;
+  }
+
+  section {
+    margin: 2rem;
+  }
+
+  img {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 1rem 0;
+  }
